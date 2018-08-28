@@ -2,7 +2,7 @@ import React from 'react';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import './Nav.css';
 
-const HeadNav = () => (
+const Header = () => (
     <Navbar>
         <Navbar.Header>
             <Navbar.Brand>
@@ -12,10 +12,10 @@ const HeadNav = () => (
         </Navbar.Header>
         <Navbar.Collapse>
             <Nav pullRight>
-                <NavItem eventkey={1} href='#about'>
+                <NavItem eventkey={1} href='/'>
                     About
                 </NavItem>
-                <NavItem eventkey={2} href='#previousWorks'>
+                <NavItem eventkey={2} href='/portfolio'>
                     Previous Works
                 </NavItem>
             </Nav>
@@ -23,4 +23,4 @@ const HeadNav = () => (
     </Navbar>
 );
 
-export default HeadNav;
+export default Header;

@@ -1,0 +1,22 @@
+.portfolioContainer {
+    background: #EFEFEF;
+}
+
+.portfolioCard {
+    padding: 0 3em 2em;
+}
+
+.portfolioThumbDesc {
+    min-height: 7em;
+    padding: 0 2em;
+}
+
+.portfolioThumbnail,
+.portfolioThumbnail:link {
+    text-decoration: none;
+}
+
+.portfolioThumbnail:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    transition: .55s;
+}
