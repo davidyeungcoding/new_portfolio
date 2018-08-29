@@ -9,5 +9,17 @@
 }
 
 .aboutHeader {
-    padding: 0;
+    padding: 1.5em 0;
+}
+
+.aboutBody {
+    padding: 0 0 1.5em;
+}
+
+.aboutText {
+    padding-bottom: 1.5em;
+}
+
+.aboutResume {
+    transition: .55s;
 }

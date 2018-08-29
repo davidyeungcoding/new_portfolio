@@ -1,5 +1,16 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.globalText {
+  color: #727272;
+}
+
+.globalLink,
+.globalLink:link,
+.globalLink:hover,
+.globalLink:visited {
+  text-decoration: none;
+  color: #727272;
+}
+
+.globalHeader {
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
 }

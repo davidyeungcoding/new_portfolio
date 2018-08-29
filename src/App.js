@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import HeadNav from './components/Nav';
 import Footer from './components/Footer';
 import Landing from './pages/Landing';
+import './index.css';
 
 class App extends Component {
 
