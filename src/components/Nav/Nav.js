@@ -6,7 +6,7 @@ const HeadNav = () => (
     <Navbar>
         <Navbar.Header>
             <Navbar.Brand>
-                <a className='globalHeader' href='/'>David Yeung</a>
+                <a className='globalHeader' href='#landingTop'>David Yeung</a>
             </Navbar.Brand>
             <Navbar.Toggle />
         </Navbar.Header>

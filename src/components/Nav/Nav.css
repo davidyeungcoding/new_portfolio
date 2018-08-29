@@ -1,3 +1,7 @@
 .navbar {
     margin: 0;
+    position: fixed;
+    left: -5px;
+    width: 105%;
+    z-index: 1;
 }
