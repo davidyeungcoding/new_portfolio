@@ -1,3 +1,24 @@
-.socialHeader {
-    padding: 1.5em 0;
+.socialLink,
+.socialLink:hover,
+.socialLink:link {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.75em;
+    color: black;
+    text-decoration: none;
+}
+
+.socialContacts {
+    padding: 1.5em;
+    width: 40%;
+    margin: 0 30%;
+}
+
+.socialContactsLast {
+    float: right;
+}
+
+.socialEmail {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.75em;
+    text-align: center;
 }

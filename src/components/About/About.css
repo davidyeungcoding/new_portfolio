@@ -22,5 +22,6 @@
 }
 
 .aboutResume {
+    font-weight: bold;
     transition: .55s;
 }
