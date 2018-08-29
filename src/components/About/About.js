@@ -55,12 +55,12 @@ class About extends Component {
                                 davidyeungcoding@gmail.com
                             </p>
                             <p>
-                                <a className='globalLink' href='https://www.linkedin.com/in/davidyeungcoding/' rel='noopener noreferrer'>
+                                <a className='globalLink' href='https://www.linkedin.com/in/davidyeungcoding/' target='_blank' rel='noopener noreferrer'>
                                     <i className='fab fa-linkedin'> linkedin.com/in/davidyeungcoding</i>
                                 </a>
                             </p>
                             <p>
-                                <a className='globalLink' href='https://github.com/davidyeungcoding' rel='noopener noreferrer'>
+                                <a className='globalLink' href='https://github.com/davidyeungcoding' target='_blank' rel='noopener noreferrer'>
                                     <i className='fab fa-github-square'> github.com/davidyeungcoding</i>
                                 </a>
                             </p>
