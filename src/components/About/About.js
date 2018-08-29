@@ -48,7 +48,7 @@ class About extends Component {
                         </Col>
                         <Col xs={0} md={1} />
                         <Col xs={12} md={3}>
-                            <h4 className='globalHeader'>
+                            <h4 className='globalHeader aboutContact'>
                                 Contact
                             </h4>
                             <p className='globalText'>

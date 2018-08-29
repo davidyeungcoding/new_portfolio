@@ -13,7 +13,11 @@
 }
 
 .aboutBody {
-    padding: 0 0 1.5em;
+    padding: 0 0 2.5em;
+}
+
+.aboutContact {
+    margin-top: 0;
 }
 
 .aboutText {
