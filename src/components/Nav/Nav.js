@@ -6,19 +6,19 @@ const HeadNav = () => (
     <Navbar>
         <Navbar.Header>
             <Navbar.Brand>
-                <a className='globalHeader test1' href='#landingTop'>David Yeung</a>
+                <a className='globalHeader navTitle' href='#landingTop'>David Yeung</a>
             </Navbar.Brand>
             <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
             <Nav pullRight>
-                <NavItem className='globalHeader test2' eventkey={1} href='#about'>
+                <NavItem className='globalHeader navLink' eventkey={1} href='#about'>
                     About
                 </NavItem>
-                <NavItem className='globalHeader test2' eventkey={2} href='#previousWorks'>
+                <NavItem className='globalHeader navLink' eventkey={2} href='#previousWorks'>
                     Previous Works
                 </NavItem>
-                <NavItem className='globalHeader test2' eventKey={3} href='#social'>
+                <NavItem className='globalHeader navLink' eventKey={3} href='#social'>
                     Contact
                 </NavItem>
             </Nav>

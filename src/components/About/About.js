@@ -16,9 +16,15 @@ class About extends Component {
                 <Grid>
                     <ScrollableAnchor id={'about'}>
                         <Row>
-                            <Col className='aboutHeader' xs={12}>
+                            <Col xsHidden className='aboutHeader' xs={12}>
                                 <PageHeader className='globalHeader'>
                                     David Yeung <small>Full-Stack Developer</small>
+                                </PageHeader>
+                            </Col>
+                            <Col lgHidden mdHidden smHidden className='aboutHeader' xs={12}>
+                                <PageHeader className='globalHeader aboutXSHeader'>
+                                    David Yeung<br />
+                                    <small>Full-Stack Developer</small>
                                 </PageHeader>
                             </Col>
                         </Row>

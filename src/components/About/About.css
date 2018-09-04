@@ -29,3 +29,36 @@
     font-weight: bold;
     transition: .55s;
 }
+
+.aboutXSHeader {
+    padding-left: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+    .aboutHeader {
+        padding: 0;
+    }
+    .aboutText {
+        padding: 0;
+        margin-bottom: 1.5em;
+    }
+    .aboutResume {
+        margin-bottom: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .aboutHeader {
+        padding: 0;
+    }
+    .aboutText {
+        padding: 0;
+        margin-bottom: 1.5em;
+    }
+    .aboutResume {
+        margin-bottom: 1.5em;
+    }
+    .aboutBody {
+        padding-bottom: 1.5em;
+    }
+}
