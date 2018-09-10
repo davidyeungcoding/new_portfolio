@@ -15,4 +15,4 @@ https://david-yeung-portfolio.herokuapp.com/
 
 ## Images:
 
-Backgroud Photo by [Jefferson Santos](https://unsplash.com/photos/9SoCnyQmkzI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/)
+* Backgroud Photo by [Jefferson Santos](https://unsplash.com/photos/9SoCnyQmkzI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/)
