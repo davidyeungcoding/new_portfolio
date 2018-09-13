@@ -29,10 +29,6 @@
     padding: 0 2em;
 }
 
-.portfolioThumbLink {
-    padding: 0 2em;
-}
-
 .portfolioThumbnail,
 .portfolioThumbnail:link {
     text-decoration: none;
@@ -43,6 +39,17 @@
 .portfolioThumbnail:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     transition: .55s;
+}
+
+.portfolioRowBtn {
+    width: 100%;
+    margin: 0;
+}
+
+.portfolioBtn {
+    font-weight: bold;
+    transition: .55s;
+    margin-top: .5em;
 }
 
 @media only screen and (max-width: 1024px) {

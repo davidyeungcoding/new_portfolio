@@ -1,5 +1,5 @@
 import React from 'react';
-import {Grid, Row, Col, Thumbnail} from 'react-bootstrap';
+import {Grid, Row, Col, Thumbnail, Button} from 'react-bootstrap';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import './Portfolio.css';
 
@@ -25,8 +25,16 @@ const Portfolio = () => (
                             their favorite brewers. Top recipes and brewers are tracked and posted in order based on number 
                             of followers or likes.
                         </p>
-                        <a className='portfolioThumbLink' href='https://github.com/davidyeungcoding/beer-peers' target='_blank' rel='noopener noreferrer'>View on GitHub</a>
                     </Thumbnail>
+                    <Row className='portfolioRowBtn'>
+                        <Col xs={3} />
+                        <Col xs={6}>
+                            <Button className='globalHeader portfolioBtn' href='https://github.com/davidyeungcoding/beer-peers' target='_blank' rel='noopener noreferrer' block>
+                                View on GitHub
+                            </Button>
+                        </Col>
+                        <Col xs={3} />
+                    </Row>
                 </Col>
                 <Col className='portfolioCard' xs={12} md={6}>
                     <Thumbnail className='portfolioThumbnail' href='https://cookie-seller-app.herokuapp.com/' target='_blank' rel='noopener noreferrer' src={require('../../images/cookie_finder.jpg')}>
@@ -36,8 +44,16 @@ const Portfolio = () => (
                             they are located, and when they they will be available. Potential buyers can then go through 
                             the seller’s catalog and reserve their orders online.
                         </p>
-                        <a className='portfolioThumbLink' href='https://github.com/davidyeungcoding/Cookie_Finder' target='_blank' rel='noopener noreferrer'>View on GitHub</a>
                     </Thumbnail>
+                    <Row className='portfolioRowBtn'>
+                        <Col xs={3} />
+                        <Col xs={6}>
+                            <Button className='globalHeader portfolioBtn' href='https://github.com/davidyeungcoding/Cookie_Finder' target='_blank' rel='noopener noreferrer' block>
+                                View on GitHub
+                            </Button>
+                        </Col>
+                        <Col xs={3} />
+                    </Row>
                 </Col>
             </Row>
             <Row>
@@ -50,8 +66,16 @@ const Portfolio = () => (
                             into the down time by finding locations nearby to hangout before or after while going through 
                             the process of purchasing their tickets.
                         </p>
-                        <a className='portfolioThumbLink' href='https://github.com/davidyeungcoding/Loiter' target='_blank' rel='noopener noreferrer'>View on GitHub</a>
                     </Thumbnail>
+                    <Row className='portfolioRowBtn'>
+                        <Col xs={3} />
+                        <Col xs={6}>
+                            <Button className='globalHeader portfolioBtn' href='https://github.com/davidyeungcoding/Loiter' target='_blank' rel='noopener noreferrer' block>
+                                View on GitHub
+                            </Button>
+                        </Col>
+                        <Col xs={3} />
+                    </Row>
                 </Col>
                 <Col className='portfolioCard' xs={12} md={6}>
                     <Thumbnail className='portfolioThumbnail' href='https://davidyeungcoding.github.io/Crystal-Collector/' target='_blank' rel='noopener noreferrer' src={require('../../images/crystal_collector.jpg')}>
@@ -61,8 +85,16 @@ const Portfolio = () => (
                             buttons with hidden values associated with each. The total displayed will keep a running tally
                             as you click on each button until you match or go over the target.
                         </p>
-                        <a className='portfolioThumbLink' href='https://github.com/davidyeungcoding/Crystal-Collector' target='_blank' rel='noopener noreferrer'>View on GitHub</a>
                     </Thumbnail>
+                    <Row className='portfolioRowBtn'>
+                        <Col xs={3} />
+                        <Col xs={6}>
+                            <Button className='globalHeader portfolioBtn' href='https://github.com/davidyeungcoding/Crystal-Collector' target='_blank' rel='noopener noreferrer' block>
+                                View on GitHub
+                            </Button>
+                        </Col>
+                        <Col xs={3} />
+                    </Row>
                 </Col>
             </Row>
         </Grid>
