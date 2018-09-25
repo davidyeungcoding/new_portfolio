@@ -48,6 +48,9 @@
 }
 
 @media only screen and (max-width: 426px) {
+    .landingBackground {
+        background-position-x: 0%;
+    }
     .aboutHeader {
         padding: 0;
     }
