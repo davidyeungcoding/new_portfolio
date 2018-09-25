@@ -74,7 +74,7 @@ class About extends Component {
                                 Skills
                             </h4>
                             <p className='globalText'>
-                                React.js &bull; Handlebars.js &bull; Node.js &bull; Express &bull; SQL &bull; MongoDB &bull; JavaScript &bull; jQuery &bull; HTML &bull; CSS &bull; Photoshop &bull; Illustrator
+                                React.js &bull; Handlebars.js &bull; Node.js &bull; Express &bull; SQL &bull; MongoDB &bull; JavaScript &bull; jQuery &bull; HTML &bull; CSS &bull; GitHub &bull; Photoshop &bull; Illustrator
                             </p>
                         </Col>
                     </Row>
