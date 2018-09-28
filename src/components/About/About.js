@@ -2,9 +2,13 @@ import React, {Component} from 'react';
 import {Grid, Row, Col, Button, PageHeader} from 'react-bootstrap';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import {configureAnchors} from 'react-scrollable-anchor';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './About.css';
 
 configureAnchors({offset: -50, scrollDuration: 700});
+
+AOS.init();
 
 class About extends Component {
     render() {
@@ -16,15 +20,13 @@ class About extends Component {
                 <Grid>
                     <ScrollableAnchor id={'about'}>
                         <Row>
-                            <Col xsHidden className='aboutHeader' xs={12}>
-                                <PageHeader className='globalHeader'>
+                            <Col className='aboutHeader' xs={12}>
+                                <PageHeader className='globalHeader'
+                                    data-aos='fade-right'
+                                    data-aos-anchor-placement='bottom-bottom'
+                                    data-aos-duration='650'
+                                    data-aos-once='true'>
                                     David Yeung <small>Full-Stack Developer</small>
-                                </PageHeader>
-                            </Col>
-                            <Col lgHidden mdHidden smHidden className='aboutHeader' xs={12}>
-                                <PageHeader className='globalHeader aboutXSHeader'>
-                                    David Yeung<br />
-                                    <small>Full-Stack Developer</small>
                                 </PageHeader>
                             </Col>
                         </Row>
@@ -34,7 +36,11 @@ class About extends Component {
                         <Col xs={12} md={7}>
                             <Row>
                                 <Col xs={12}>
-                                    <p className='globalText aboutText'>
+                                    <p className='globalText aboutText'
+                                        data-aos='fade-down'
+                                        data-aos-duration='650'
+                                        data-aos-delay='400'
+                                        data-aos-once='true'>
                                         I was previously working at an online ordering company for five years where the first two years were 
                                         spent as a customer service representative before moving up to QA Lead. While there, I learned some 
                                         basics of coding and developed an interest in the subject before deciding to study full time at a 
@@ -45,7 +51,10 @@ class About extends Component {
                                 </Col>
                                 <Col xs={0} sm={4} />
                                 <Col xs={12} sm={4}>
-                                    <Button className='globalHeader aboutResume' bsSize='large' href='https://docs.google.com/document/d/15aQiKxziN8ybOCR1wEX5hWayDmrT9-k__kcJWCF8XgA/edit?usp=sharing' target='_blank' rel='noopener noreferrer' block>
+                                    <Button className='globalHeader aboutResume' bsSize='large' href='https://docs.google.com/document/d/15aQiKxziN8ybOCR1wEX5hWayDmrT9-k__kcJWCF8XgA/edit?usp=sharing' target='_blank' rel='noopener noreferrer' block
+                                        data-aos='fade-top'
+                                        data-aos-anchor-placement='bottom-bottom'
+                                        data-aos-once='true'>
                                         Resume
                                     </Button>
                                 </Col>
@@ -53,27 +62,99 @@ class About extends Component {
                             </Row>
                         </Col>
                         <Col xs={0} md={1} />
-                        <Col xs={12} md={3}>
-                            <h4 className='globalHeader aboutContact'>
+                        <Col xsHidden xs={12} md={3}>
+                            <h4 className='globalHeader aboutContact'
+                                data-aos='fade-down'
+                                data-aos-anchor-placement='bottom-bottom'
+                                data-aos-duration='650'
+                                data-aos-delay='800'
+                                data-aos-once='true'>
                                 Contact
                             </h4>
-                            <p className='globalText'>
+                            <p className='globalText'
+                                data-aos='fade-left'
+                                data-aos-anchor-placement='bottom-bottom'
+                                data-aos-duration='650'
+                                data-aos-delay='1000'
+                                data-aos-once='true'>
                                 davidyeungcoding@gmail.com
                             </p>
                             <p>
                                 <a className='globalLink' href='https://www.linkedin.com/in/davidyeungcoding/' target='_blank' rel='noopener noreferrer'>
-                                    <i className='fab fa-linkedin'> linkedin.com/in/davidyeungcoding</i>
+                                    <i className='fab fa-linkedin'
+                                        data-aos='fade-left'
+                                        data-aos-anchor-placement='bottom-bottom'
+                                        data-aos-duration='650'
+                                        data-aos-delay='1200'
+                                        data-aos-once='true'> linkedin.com/in/davidyeungcoding</i>
                                 </a>
                             </p>
                             <p>
                                 <a className='globalLink' href='https://github.com/davidyeungcoding' target='_blank' rel='noopener noreferrer'>
-                                    <i className='fab fa-github-square'> github.com/davidyeungcoding</i>
+                                    <i className='fab fa-github-square'
+                                        data-aos='fade-left'
+                                        data-aos-anchor-placement='bottom-bottom'
+                                        data-aos-duration='650'
+                                        data-aos-delay='1400'
+                                        data-aos-once='true'> github.com/davidyeungcoding</i>
                                 </a>
                             </p>
-                            <h4 className='globalHeader'>
+                            <h4 className='globalHeader'
+                                data-aos='fade-top'
+                                data-aos-anchor-placement='bottom-bottom'
+                                data-aos-duration='650'
+                                data-aos-delay='1600'
+                                data-aos-once='true'>
                                 Skills
                             </h4>
-                            <p className='globalText'>
+                            <p className='globalText'
+                                data-aos='fade-left'
+                                data-aos-anchor-placement='top-bottom'
+                                data-aos-duration='650'
+                                data-aos-delay='1600'
+                                data-aos-once='true'>
+                                React.js &bull; Handlebars.js &bull; Node.js &bull; Express &bull; SQL &bull; MongoDB &bull; JavaScript &bull; jQuery &bull; HTML &bull; CSS &bull; GitHub &bull; Photoshop &bull; Illustrator
+                            </p>
+                        </Col>
+                        <Col lgHidden mdHidden smHidden xs={12} md={3}>
+                            <h4 className='globalHeader aboutContact'
+                                data-aos='fade-down'
+                                data-aos-duration='650'
+                                data-aos-once='true'>
+                                Contact
+                            </h4>
+                            <p className='globalText'
+                                data-aos='fade-right'
+                                data-aos-duration='650'
+                                data-aos-once='true'>
+                                davidyeungcoding@gmail.com
+                            </p>
+                            <p>
+                                <a className='globalLink' href='https://www.linkedin.com/in/davidyeungcoding/' target='_blank' rel='noopener noreferrer'>
+                                    <i className='fab fa-linkedin'
+                                    data-aos='fade-right'
+                                    data-aos-duration='650'
+                                    data-aos-once='true'> linkedin.com/in/davidyeungcoding</i>
+                                </a>
+                            </p>
+                            <p>
+                                <a className='globalLink' href='https://github.com/davidyeungcoding' target='_blank' rel='noopener noreferrer'>
+                                    <i className='fab fa-github-square'
+                                    data-aos='fade-right'
+                                    data-aos-duration='650'
+                                    data-aos-once='true'> github.com/davidyeungcoding</i>
+                                </a>
+                            </p>
+                            <h4 className='globalHeader'
+                                data-aos='fade-up'
+                                data-aos-duration='650'
+                                data-aos-once='true'>
+                                Skills
+                            </h4>
+                            <p className='globalText'
+                                data-aos='fade-right'
+                                data-aos-duration='650'
+                                data-aos-once='true'>
                                 React.js &bull; Handlebars.js &bull; Node.js &bull; Express &bull; SQL &bull; MongoDB &bull; JavaScript &bull; jQuery &bull; HTML &bull; CSS &bull; GitHub &bull; Photoshop &bull; Illustrator
                             </p>
                         </Col>

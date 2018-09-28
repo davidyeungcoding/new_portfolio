@@ -30,10 +30,6 @@
     transition: .55s;
 }
 
-.aboutXSHeader {
-    padding-left: 1em;
-}
-
 @media only screen and (max-width: 768px) {
     .aboutHeader {
         padding: 0;
@@ -52,7 +48,7 @@
         background-position-x: 0%;
     }
     .aboutHeader {
-        padding: 0;
+        padding-left: 1em;
     }
     .aboutText {
         padding: 0;
