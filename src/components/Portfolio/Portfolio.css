@@ -65,6 +65,9 @@
 }
 
 @media only screen and (max-width: 426px) {
+    .portfolioHeader {
+        padding-left: 1em;
+    }
     .portfolioCard {
         padding: 0 0 3em;
     }

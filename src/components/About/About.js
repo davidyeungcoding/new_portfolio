@@ -33,7 +33,7 @@ class About extends Component {
                     </ScrollableAnchor>
                     <Row className='aboutBody'>
                         <Col xs={0} md={1} />
-                        <Col xs={12} md={7}>
+                        <Col xs={12} md={6}>
                             <Row>
                                 <Col xs={12}>
                                     <p className='globalText aboutText'
@@ -49,8 +49,8 @@ class About extends Component {
                                         an opportunity to apply what I’ve learned from all my experiences into the next project.
                                     </p>
                                 </Col>
-                                <Col xs={0} sm={4} />
-                                <Col xs={12} sm={4}>
+                                <Col xs={0} sm={3} />
+                                <Col xs={12} sm={6}>
                                     <Button className='globalHeader aboutResume' bsSize='large' href='https://docs.google.com/document/d/15aQiKxziN8ybOCR1wEX5hWayDmrT9-k__kcJWCF8XgA/edit?usp=sharing' target='_blank' rel='noopener noreferrer' block
                                         data-aos='fade-top'
                                         data-aos-anchor-placement='bottom-bottom'
@@ -58,11 +58,11 @@ class About extends Component {
                                         Resume
                                     </Button>
                                 </Col>
-                                <Col xs={0} sm={4} />
+                                <Col xs={0} sm={3} />
                             </Row>
                         </Col>
                         <Col xs={0} md={1} />
-                        <Col xsHidden xs={12} md={3}>
+                        <Col mdHidden smHidden xsHidden xs={12} md={3}>
                             <h4 className='globalHeader aboutContact'
                                 data-aos='fade-down'
                                 data-aos-anchor-placement='bottom-bottom'
@@ -116,7 +116,7 @@ class About extends Component {
                                 React.js &bull; Handlebars.js &bull; Node.js &bull; Express &bull; SQL &bull; MongoDB &bull; JavaScript &bull; jQuery &bull; HTML &bull; CSS &bull; GitHub &bull; Photoshop &bull; Illustrator
                             </p>
                         </Col>
-                        <Col lgHidden mdHidden smHidden xs={12} md={3}>
+                        <Col lgHidden xs={12} md={3}>
                             <h4 className='globalHeader aboutContact'
                                 data-aos='fade-down'
                                 data-aos-duration='650'
@@ -158,6 +158,7 @@ class About extends Component {
                                 React.js &bull; Handlebars.js &bull; Node.js &bull; Express &bull; SQL &bull; MongoDB &bull; JavaScript &bull; jQuery &bull; HTML &bull; CSS &bull; GitHub &bull; Photoshop &bull; Illustrator
                             </p>
                         </Col>
+                        <Col xs={0} md={1} />
                     </Row>
                 </Grid>
             </div>
