@@ -9,14 +9,20 @@ const Portfolio = () => (
             <ScrollableAnchor id='previousWorks'>
                 <Row>
                     <Col className='portfolioHeader' xs={12}>
-                        <h3 className='globalHeader'>
+                        <h3 className='globalHeader'
+                            data-aos='fade-right'
+                            data-aos-duration='650'
+                            data-aos-once='true'>
                             Previous Works
                         </h3>
                     </Col>
                 </Row>
             </ScrollableAnchor>
             <Row>
-                <Col className='portfolioCard' xs={12} md={6}>
+                <Col className='portfolioCard' xs={12} md={6}
+                    data-aos='fade-down'
+                    data-aos-duration='650'
+                    data-aos-once='true'>
                     <Thumbnail className='portfolioThumbnail' href='http://www.beerpeersapp.com/' target='_blank' rel='noopener noreferrer' src={require('../../images/beer_peers.jpg')}>
                         <h3 className='globalHeader portfolioCardHeader'>Beer Peers</h3>
                         <p className='globalText portfolioThumbDesc'>
@@ -36,7 +42,11 @@ const Portfolio = () => (
                         <Col xs={3} />
                     </Row>
                 </Col>
-                <Col className='portfolioCard' xs={12} md={6}>
+                <Col className='portfolioCard' xs={12} md={6}
+                    data-aos='fade-down'
+                    data-aos-duration='650'
+                    data-aos-delay='200'
+                    data-aos-once='true'>
                     <Thumbnail className='portfolioThumbnail' href='https://cookie-seller-app.herokuapp.com/' target='_blank' rel='noopener noreferrer' src={require('../../images/cookie_finder.jpg')}>
                         <h3 className='globalHeader portfolioCardHeader'>Cookie Finder</h3>
                         <p className='globalText portfolioThumbDesc'>
@@ -57,7 +67,10 @@ const Portfolio = () => (
                 </Col>
             </Row>
             <Row>
-                <Col className='portfolioCard' xs={12} md={6}>
+                <Col className='portfolioCard' xs={12} md={6}
+                    data-aos='fade-down'
+                    data-aos-duration='650'
+                    data-aos-once='true'>
                     <Thumbnail className='portfolioThumbnail' href='https://americone-dream.github.io/Loiter/' target='_blank' rel='noopener noreferrer' src={require('../../images/Loiter.jpg')}>
                         <h3 className='globalHeader portfolioCardHeader'>Loiter</h3>
                         <p className='globalText portfolioThumbDesc'>
@@ -77,7 +90,11 @@ const Portfolio = () => (
                         <Col xs={3} />
                     </Row>
                 </Col>
-                <Col className='portfolioCard' xs={12} md={6}>
+                <Col className='portfolioCard' xs={12} md={6}
+                    data-aos='fade-down'
+                    data-aos-duration='650'
+                    data-aos-delay='200'
+                    data-aos-once='true'>
                     <Thumbnail className='portfolioThumbnail' href='https://davidyeungcoding.github.io/Crystal-Collector/' target='_blank' rel='noopener noreferrer' src={require('../../images/crystal_collector.jpg')}>
                         <h3 className='globalHeader portfolioCardHeader'>Crystal Collector</h3>
                         <p className='globalText portfolioThumbDesc'>

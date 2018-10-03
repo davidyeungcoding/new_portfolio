@@ -2,13 +2,9 @@ import React, {Component} from 'react';
 import {Grid, Row, Col, Button, PageHeader} from 'react-bootstrap';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import {configureAnchors} from 'react-scrollable-anchor';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import './About.css';
 
 configureAnchors({offset: -50, scrollDuration: 700});
-
-AOS.init();
 
 class About extends Component {
     render() {
@@ -51,12 +47,14 @@ class About extends Component {
                                 </Col>
                                 <Col xs={0} sm={3} />
                                 <Col xs={12} sm={6}>
-                                    <Button className='globalHeader aboutResume' bsSize='large' href='https://docs.google.com/document/d/15aQiKxziN8ybOCR1wEX5hWayDmrT9-k__kcJWCF8XgA/edit?usp=sharing' target='_blank' rel='noopener noreferrer' block
+                                    <div
                                         data-aos='fade-top'
                                         data-aos-anchor-placement='bottom-bottom'
                                         data-aos-once='true'>
-                                        Resume
-                                    </Button>
+                                        <Button className='globalHeader aboutResume' bsSize='large' href='https://docs.google.com/document/d/15aQiKxziN8ybOCR1wEX5hWayDmrT9-k__kcJWCF8XgA/edit?usp=sharing' target='_blank' rel='noopener noreferrer' block>
+                                            Resume
+                                        </Button>
+                                    </div>
                                 </Col>
                                 <Col xs={0} sm={3} />
                             </Row>
