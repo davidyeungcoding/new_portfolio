@@ -6,9 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './index.css';
 
-AOS.init({
-  disable: 'phone'
-});
+AOS.init();
 
 class App extends Component {
 
