@@ -12,6 +12,7 @@ https://david-yeung-portfolio.herokuapp.com/
 ## NPM Packages:
 
 * [react-scrollable-anchor](https://github.com/gabergg/react-scrollable-anchor)
+* [AOS](https://github.com/michalsnik/aos)
 
 ## Images:
 
